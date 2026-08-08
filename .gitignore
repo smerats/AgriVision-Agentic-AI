@@ -1,16 +1,7 @@
-# Byte-compiled / optimized / DLL files
-__pycache__/
-*.py[codz]
-*$py.class
-
-# C extensions
-*.so
-
-# Distribution / packaging
-.Python
-build/
-develop-eggs/
+node_modules/
 dist/
+.env
+.env.local
 downloads/
 eggs/
 .eggs/
@@ -203,3 +194,11 @@ Thumbs.db
 __pycache__/
 *.pyc
 .venv/
+# AgriVision satellite data and generated outputs
+satellite/data/*.tif
+satellite/data/*.tiff
+satellite/output/*.npy
+satellite/output/*.png
+satellite/output/charts/
+satellite/output/health_report.json
+satellite/output/health_score.txt
