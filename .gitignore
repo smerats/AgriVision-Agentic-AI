@@ -200,3 +200,6 @@ Thumbs.db
 # NOTE:
 # Do NOT ignore *.pkl because our trained AI model files
 # need to be committed to GitHub.
+__pycache__/
+*.pyc
+.venv/
