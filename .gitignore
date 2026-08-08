@@ -1,16 +1,7 @@
-# Byte-compiled / optimized / DLL files
-__pycache__/
-*.py[codz]
-*$py.class
-
-# C extensions
-*.so
-
-# Distribution / packaging
-.Python
-build/
-develop-eggs/
+node_modules/
 dist/
+.env
+.env.local
 downloads/
 eggs/
 .eggs/
